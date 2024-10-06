@@ -9,4 +9,7 @@ public class PrintNumber implements Runnable{
     public void run() {
         System.out.println("Printing " + this.noToPrint + " in thread : " + Thread.currentThread().getName());
     }
+    public void startNumber{
+        int a;
+    }
 }
